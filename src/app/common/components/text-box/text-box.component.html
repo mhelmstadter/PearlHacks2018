@@ -1,0 +1,7 @@
+<div class="form-template">
+  <mat-form-field [color]="primary">
+    <input matInput placeholder={{placeholder}} [(ngModel)]="textboxValue" (ngModelChange)="onChange($event)">
+    <mat-icon *ngIf="icon" matSuffix>{{icon}}</mat-icon>
+  </mat-form-field>
+</div>
+

@@ -1,0 +1,7 @@
+<mat-card>
+  <h1>Log In</h1>
+  <app-text-box input type="text" placeholder="Username" [(textboxValue)]="usernameValue"></app-text-box>
+  <app-text-box></app-text-box>
+  <app-basic-button label="Sign In" color="primary" (clickEvent)="signIn($event)"></app-basic-button>
+  <app-raised-button label="Break the Glass Ceiling" color="primary" (clickEvent)="break($event)"></app-raised-button>
+</mat-card>
